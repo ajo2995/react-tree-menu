@@ -1,6 +1,6 @@
 var React = require('react'),
   PropTypes = require('prop-types'),
-  createReactClass = require('create-react-class');
+  createReactClass = require('create-react-class'),
   TreeNodeMixin = require('./TreeNodeMixin'),
   noop = require('lodash/noop');
 
