@@ -3,6 +3,7 @@
   "version": "1.5.0",
   "description": "A tree menu component for React",
   "main": "index.js",
+  "source": "index.js",
   "keywords": [
     "react",
     "tree",
