@@ -1,7 +1,7 @@
 var React = require('react'),
   PropTypes = require('prop-types'),
   createReactClass = require('create-react-class'),
-  TreeNode = require('./TreeNode.jsx'),
+  TreeNode = require('./TreeNode.js'),
   TreeNodeFactory = React.createFactory(TreeNode),
   TreeNodeMixin = require('./TreeNodeMixin.js'),
   clone = require('lodash/clone'),

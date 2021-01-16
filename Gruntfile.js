@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 
     browserify: {
       example : {
-        src: ['example/boot.jsx'],
+        src: ['example/boot.js'],
         dest: 'example/bundle.js',
         options: {
           transform: ['reactify']
