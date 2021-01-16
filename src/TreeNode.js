@@ -58,7 +58,7 @@ var TreeNode = createReactClass({
       expandIconClass: "",
       collapseIconClass: "",
       labelFactory: function (labelClassName, displayLabel) {
-        return <label className={labelClassName}>{displayLabel}</label>;
+        return (<label className={labelClassName}>{displayLabel}</label>);
       },
       checkboxFactory: function (className, isChecked) {
         return (
